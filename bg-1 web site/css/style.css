@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {}
+
+.container {
+	width: 1250px;
+	margin: 0 auto;
+	padding-top: 18px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.headline {
+	font-family: Alegreya;
+	max-width: 30%;
+	flex-basis: 30%;
+}
+
+.headline h2 {}
+
+.menu {
+	max-width: 70%;
+	flex-basis: 70%;
+}
+
+.menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	justify-content: flex-end;
+}
+
+.menu ul li {
+	padding: 0 19px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 23px;
+	font-family: Archivo Narrow;
+}
+
+.banner {
+	background-image: url(../images/bg.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 99vh;
+}
+
+.container-banner {
+	width: 1250px;
+	margin: 0 auto;
+	padding: 180px 0;
+}
+
+.content-box {
+	padding-bottom: 45px;
+}
+
+.content-box h1 {
+	padding-bottom: 20px;
+	font-size: 35px;
+	width: 23%;
+	font-family: Alegreya Sans;
+}
+
+.content-box p {
+	width: 33%;
+	text-align: justify;
+	font-size: 18px;
+	color: #9C9C9C;
+}
+
+li:hover a {
+	border: 1px solid #18BDF7;
+	border-radius: 30px;
+	background-color: #18BDF7;
+	padding: 5px 16px;
+	color: white;
+}
+
+button {
+	padding: 14px 27px;
+	border: 1px solid #18BDF7;
+	border-radius: 39px;
+}
+
+button:hover {
+
+	background-color: #18BDF7;
+	color: white;
+	padding: 15px 27px;
+}
+
+.part-2 {
+	background-image: url(../images/bg1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 122vh;
+}
+
+.container-2 {
+	width: 1075px;
+	margin: 0 auto;
+}
+
+.contentbox {
+	padding-top: 281px;
+}
+
+.contentbox h1 {
+	padding-bottom: 15px;
+	font-family: Alegreya Sans;
+	font-size: 28px;
+	font-weight: normal;
+	color: #9C9C9C;
+}
+
+.contentbox h2 {
+	padding-bottom: 15px;
+	font-family: Arial Black;
+	font-size: 40px;
+}
+
+.contentbox p {
+	padding-bottom: 39px;
+	width: 30%;
+	text-align: justify;
+	color: #9C9C9C;
+	font-family: Amiri;
+}
+
+.contentbox h4 {
+	display: inline;
+	border: 2px solid black;
+	font-size: 33px;
+	font-weight: normal;
+	border-radius: 36px;
+	padding: 7px 16px;
+}
+
+.contentbox h3 {
+	padding-bottom: 15px;
+	width: 0;
+	font-family: Arial Black;
+	font-size: 44px;
+	color: #18BDF7;
+}
+
+h4:hover {
+	color: white;
+	background-color: #18BDF7;
+}
